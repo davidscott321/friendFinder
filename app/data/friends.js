@@ -1,0 +1,100 @@
+var friends = [
+  {
+     "name":"Ahmed",
+     "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+     "scores":[
+        "5",
+        "1",
+        "4",
+        "4",
+        "5",
+        "1",
+        "2",
+        "5",
+        "4",
+        "1"
+     ]
+  },
+  {
+     "name":"Alex Tillo",
+     "photo":"https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?cs=srgb&dl=adult-beach-beard-736716.jpg&fm=jpg",
+     "scores":[
+        "2",
+        "5",
+        "1",
+        "4",
+        "3",
+        "5",
+        "5",
+        "5",
+        "1",
+        "3"
+     ]
+  },
+  {
+     "name":"Stan Idon",
+     "photo":"https://images.pexels.com/photos/555790/pexels-photo-555790.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+     "scores":[
+        "3",
+        "1",
+        "3",
+        "1",
+        "3",
+        "3",
+        "1",
+        "3",
+        "1",
+        "3"
+     ]
+  },
+  {
+     "name":"Wesley Jinx",
+     "photo":"https://us.123rf.com/450wm/ostill/ostill1306/ostill130600045/20012205-one-caucasian-man-mature-handsome-portrait-blue-eyes-smiling-portrait-studio-white-background.jpg?ver=6",
+     "scores":[
+        "2",
+        "4",
+        "2",
+        "4",
+        "2",
+        "4",
+        "2",
+        "4",
+        "2",
+        "4"
+     ]
+  },
+ {
+    "name":"Henry Holder",
+    "photo":"https://media.istockphoto.com/photos/fashion-is-a-serious-business-picture-id469339032?k=6&m=469339032&s=612x612&w=0&h=UT82hbIOyGNFYqsCeTwtUsDCpBqigGiNz46Oc0-c3Gk=",
+    "scores":[
+       "5",
+       "2",
+       "5",
+       "2",
+       "5",
+       "2",
+       "4",
+       "5",
+       "5",
+       "2"
+    ]
+ },
+ {
+    "name":"Kevin Huft",
+    "photo":"https://media.istockphoto.com/photos/portrait-of-a-handsome-man-smiling-isolated-on-white-picture-id637538262?k=6&m=637538262&s=612x612&w=0&h=J5lue2wanc24qgiXqcE8fBeZkFdI3dNVzA-lSyC3WiQ=",
+    "scores":[
+       "3",
+       "2",
+       "1",
+       "5",
+       "4",
+       "3",
+       "2",
+       "1",
+       "4",
+       "4"
+    ]
+ }
+]
+
+module.exports = friends;

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Friend Finder - User Survey</title>
+
+    <!-- Bootstrap 4.2.1 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Custom Styling -->
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class = "container">
+      <h2>Survey Questions</h2>
+      <hr>
+      <h4><strong>About You</strong></h4>
+      <h5>Name (Required)</h5>
+      <input type="text" value="" class="form-control" id="name">
+      <h5>Link to Photo Image (Required)</h5>
+      <input type="text" value="" class="form-control" id="photoURL">
+      <hr>
+
+      <h4><strong>Question 1</strong></h4>
+      <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+      <select data-placeholder="Select an Option" class="chosen-container" id="1">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br />
+      <h4><strong>Question 2</strong></h4>
+      <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="2">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 3</strong></h4>
+      <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="3">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 4</strong></h4>
+      <h5>You rarely do something just out of sheer curiosity.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="4">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 5</strong></h4>
+      <h5>People can rarely upset you.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="5">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 6</strong></h4>
+      <h5>It is often difficult for you to relate to other people’s feelings.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="6">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 7</strong></h4>
+      <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="7">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 8</strong></h4>
+      <h5>You rarely get carried away by fantasies and ideas.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="8">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 9</strong></h4>
+      <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="9">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <h4><strong>Question 10</strong></h4>
+      <h5>You feel more energetic after spending time with a group of people.</h5>
+      <select data-placeholder="Select an Option" class="chosen-select" id="10">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <br />
+      <br />
+      <input type="submit" id="submit" value="Submit">
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title"></h4> 
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery 3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Bootstrap 4.2.1 JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+    <!-- Custom JavaScript Code -->
+    <script> 
+      $(document).ready(function()
+      {
+        $("#submit").on("click", validateForm);
+      });
+
+      function validateForm()
+      {
+        var valid = true;
+
+        if($("#name").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#photoURL").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#1").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#2").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#3").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#4").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#5").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#6").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#7").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#8").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#9").val()==="")
+        {
+          valid=false;
+        }
+        else if($("#10").val()==="")
+        {
+          valid=false;
+        }
+
+        if(!valid)
+        {
+          $(".modal-title").html("Error - Field(s) missing");
+          $(".modal-body").html("<p>Please fill out all fields before submitting.</p>");
+          $("#myModal").modal();
+        }
+        else
+        {
+          submitForm();
+        }
+      }
+
+      function submitForm()
+      {
+        var newUser = {
+	    		name: $("#name").val(),
+	    		photo: $("#photoURL").val(),
+	    		scores:[$("#1").val(),$("#2").val(),$("#3").val(),$("#4").val(),$("#5").val(),$("#6").val(),$("#7").val(),$("#8").val(),$("#9").val(),$("#10").val()]
+	    	}
+
+	    	$.post(window.location.origin + "/api/friends",newUser,function(data){       
+          $(".modal-title").html("Match Found!");
+          $(".modal-body").html(`<p>Name: ${data.name}</p>`);
+          $(".modal-body").append(`<p><img src="${data.photo}" alt="Photo of ${data.name}" class="modal-content"></p>`);
+          $("#myModal").modal();
+	    	});
+      }
+    </script> 
+  </body>
+</html>
