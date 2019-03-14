@@ -31,6 +31,8 @@ module.exports = function(app){
 			}
 		}
 
+		friends.push(newUser);
+
 		res.json(closestMatch);
 	});
 }
